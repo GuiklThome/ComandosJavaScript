@@ -10,4 +10,8 @@ console.log(escola.substring(0, 3 )) //do primeiro ate o desejado não incluindo
 
 
 console.log('Escola '.concat(escola).concat('!!!'))
-console.log(escola.replace(3,'e'))
+console.log('Escola ' + escola + '!!!')
+console.log(escola.replace(3,'e'))  //substitui o 3 por e
+
+
+console.log('Ana,Maria,Pedro'.split(',')) //Está criado um arrey e o parametro é a ',' QUE FOI POSTO
